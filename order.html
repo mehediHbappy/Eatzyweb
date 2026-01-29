@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Order • Eatzy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Eatzy</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#menu">Menu</a></li>
+      <li>
+        <a href="order.html">Cart
+          <span id="cart-count" class="cart-badge">0</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="order-container">
+    <h1>Your Eatzy Order</h1>
+
+    <div class="order-items" id="order-items">
+      <!-- Filled by JS -->
+    </div>
+
+    <div class="pricing">
+      <div class="price-row">
+        <span>Subtotal</span>
+        <span id="subtotal">$0.00</span>
+      </div>
+      <div class="price-row">
+        <span>Delivery</span>
+        <span>$3.99</span>
+      </div>
+      <div class="price-row">
+        <span>Tax (7%)</span>
+        <span id="tax">$0.00</span>
+      </div>
+      <div class="price-row total-row">
+        <span>Total</span>
+        <span id="total">$0.00</span>
+      </div>
+    </div>
+
+    <div class="order-actions">
+      <button class="btn proceed">Proceed to Payment</button>
+      <a href="index.html" class="btn back">Keep Shopping</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo">Eatzy</div>
+      <p>Food you love, delivered fast • © 2026 Eatzy</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

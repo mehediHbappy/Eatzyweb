@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eatzy - Fast & Tasty Delivery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Eatzy</div>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li>
+        <a href="order.html">Cart
+          <span id="cart-count" class="cart-badge">0</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hungry? Eatzy Delivers!</h1>
+      <p>Hot, fresh & delicious food straight to your door in minutes.</p>
+      <a href="#menu" class="hero-btn">Browse Menu</a>
+    </div>
+  </section>
+
+  <section class="search-section">
+    <div class="search-container">
+      <input type="text" placeholder="What are you craving today?..." class="search-bar">
+      <button class="search-btn">Search</button>
+    </div>
+
+    <div class="categories">
+      <button class="category-btn active">All</button>
+      <button class="category-btn">Pizza</button>
+      <button class="category-btn">Burger</button>
+      <button class="category-btn">Biriyani</button>
+      <button class="category-btn">Drinks</button>
+      <button class="category-btn">Dessert</button>
+    </div>
+  </section>
+
+  <main class="menu-container" id="menu">
+
+    <section class="food-category">
+      <h2>Our Best Pizzas</h2>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Margherita">
+          <h3>Margherita Pizza</h3>
+          <p class="price">$11.90</p>
+          <p class="desc">Classic tomato, mozzarella & basil</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="https://images.unsplash.com/photo-1600028068383-ea11a7a101f3" alt="Pepperoni">
+          <h3>Pepperoni Feast</h3>
+          <p class="price">$13.90</p>
+          <p class="desc">Extra pepperoni & cheese pull</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="food-category">
+      <h2>Signature Burgers</h2>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/brgr1.jpg" alt="Classic Burger">
+          <h3>Classic Smash Burger</h3>
+          <p class="price">$8.50</p>
+          <p class="desc">Juicy patty, cheese, special sauce</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/brgr2.jpg" alt="Chicken Burger">
+          <h3>Crispy Chicken Burger</h3>
+          <p class="price">$9.20</p>
+          <p class="desc">Golden crispy with tangy mayo</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="food-category">
+      <h2>Biriyani</h2>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/br1.jpg" alt="Classic Burger">
+          <h3>Haydrabadi Biriyani</h3>
+          <p class="price">$8.50</p>
+          <p class="desc">Test treditional biriyani</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/br2.jpg" alt="Chicken Burger">
+          <h3>Mutton Biriyani</h3>
+          <p class="price">$9.20</p>
+          <p class="desc">Golden crispy with tangy mayo</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="food-category">
+      <h2>Drinks</h2>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/coca.jpg" alt="Classic Burger">
+          <h3>Coca-Cola</h3>
+          <p class="price">$4.50</p>
+          <p class="desc">Premium can</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/lemon.jpg" alt="Chicken Burger">
+          <h3>Lemonade</h3>
+          <p class="price">$3.20</p>
+          <p class="desc">Satisfy your thirst</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo">Eatzy</div>
+      <p>Food you love, delivered fast • © 2026 Eatzy</p>
+      <p>Design and Devloped by</p>
+      <p>Mehedi Hasan Bappy</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- code written by mehedi hasan bappy-->
+<!-- Don't copy
+ check out my other website at github.com/mehedi_h_bappy -->
